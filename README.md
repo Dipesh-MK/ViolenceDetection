@@ -90,23 +90,23 @@ Step 8: Video-Level Decision
   Method: Majority vote over segments
   Final Output: "Violent" or "Non-Violent"
 
-# 📘 How to Run This Notebook
+# How to Run This Notebook
 
 This section provides detailed instructions to run `violence_detection.ipynb` in different environments: **Kaggle**, **Google Colab**, and **locally**. Each platform has its own setup method depending on file access, environment persistence, and dependencies.
 
 ---
 
-## 🟢 Running on Kaggle (Recommended)
+## Running on Kaggle (Recommended)
 
 Kaggle offers a seamless experience with persistent environments and automatic handling of files and variables.
 
-### ✅ Why Kaggle is Ideal:
+### Why Kaggle is Ideal:
 
 - **Built-in persistence**: Files, variables, and outputs are saved throughout the session.
 - **No manual download required**: When you upload the dataset, model weights (`trained_model.pth`, `best_model.pth`), and notebook in the same session, Kaggle retains them.
 - **Pre-installed dependencies**: Most common packages (e.g., PyTorch, OpenCV, tqdm) are already installed.
 
-### ▶️ Steps:
+### Steps:
 
 1. Visit [https://www.kaggle.com](https://www.kaggle.com).
 2. Create a new notebook.
@@ -118,21 +118,21 @@ Kaggle offers a seamless experience with persistent environments and automatic h
 4. Set your runtime to GPU for faster performance (optional but recommended).
 5. Click **“Run All”** — no additional setup needed.
 
-> 📌 **Note:** As long as all files are uploaded together, **no path changes** are required. Kaggle automatically handles storage and file access.
+> **Note:** As long as all files are uploaded together, **no path changes** are required. Kaggle automatically handles storage and file access.
 
 ---
 
-## ☁️ Running on Google Colab
+## Running on Google Colab
 
 Colab is a flexible option but requires some manual setup for file and dependency management.
 
-### ⚠️ Setup Required:
+### Setup Required:
 
 - **Dependencies must be installed manually** using `pip`.
 - **No file persistence** between sessions (unless you mount Google Drive).
 - **Dataset and model weights must be downloaded** from the provided link.
 
-### ▶️ Steps:
+### Steps:
 
 1. Go to [https://colab.research.google.com](https://colab.research.google.com).
 2. Upload or open `violence_detection.ipynb`.
